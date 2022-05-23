@@ -45,3 +45,17 @@ h2 {
 .animate__animated.animate__flipInX {
     --animate-duration: 2s;
 }
+
+.card-back-container {
+    background-color: aqua;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    transform: translateY(255px);
+}
